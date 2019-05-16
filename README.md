@@ -5,7 +5,8 @@
 * case4:input:7,ecpect output:7
 
 # Spec.js
-```var should = chai.should()
+``` 
+var should = chai.should()
 
 describe('FizzBuzz test', function () {
   it('[case1]: input: 9, expect output : Fizz', function () {
@@ -24,10 +25,12 @@ describe('FizzBuzz test', function () {
     const result = fizzBuzz(7)
     result.should.be.equal(7)
   })
-})```
+})
+```
 
 # Test.js
-```function fizzBuzz(num) {
+``` 
+function fizzBuzz(num) {
   let str = ''
   if (num % 3 === 0) {
     str += 'Fizz'
@@ -40,4 +43,5 @@ describe('FizzBuzz test', function () {
   } else {
     return num
   }
-}```
+}
+```
